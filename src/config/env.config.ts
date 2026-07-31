@@ -3,4 +3,5 @@ export const EnvConfiguration = () => ({
   port: Number(process.env.PORT) || 3000,
   postgresdb: process.env.POSTGRES_DB_NAME || '',
   postgresdbPassword: process.env.POSTGRES_DB_PASSWORD || '',
+  defaultLimit: Number(process.env.DEFAULT_LIMIT) || 7,
 });
